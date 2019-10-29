@@ -1,0 +1,19 @@
+# Eclipse Projects Files
+.settings
+.classpath
+.project
+# Target Folder
+target/
+# Bin Folder
+bin/
+# Logs Folder
+logs/
+# Other folders
+.metadata
+.recommenders
+.sonar
+Servers
+RemoteSystemsTempFiles
+
+#createservice-serviceinventory
+createservice-serviceinventory/src/main/resources/out/
