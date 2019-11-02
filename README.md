@@ -16,4 +16,12 @@ To build the project and generate the bundle use Maven
 If everything checks out, the jar should be available in the `bpmn2choreography-validator/target` folder
 
 ## Usage
+Inside the pom.xml file
 
+<dependencies>
+	<dependency>
+		<groupId>eu.chorevolution.validations</groupId>
+		<artifactId>bpmn2choreography-validator</artifactId>
+		<version>2.2.0</version>
+	</dependency>
+</dependencies>
