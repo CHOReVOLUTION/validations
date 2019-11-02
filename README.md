@@ -1,5 +1,5 @@
 # Validations
-validations repository contains a module bpmn2choreography-validator. 
+This repository contains a module bpmn2choreography-validator. 
 The bpmn2choreography-validator is a java library that validates a BPMN2 Choreography diagram with respect to the BPMN2 validation rules.
 
 ## Requirements
