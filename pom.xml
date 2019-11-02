@@ -33,7 +33,16 @@ limitations under the License.
    </organization>
    
    <url>http://www.chorevolution.eu</url>
-   
+
+<!--   
+   <scm>
+      <connection>scm:git:https://maven.pkg.github.com/CHOReVOLUTION/validations.git</connection>
+      <developerConnection>scm:git:https://maven.pkg.github.com/CHOReVOLUTION/validations.git</developerConnection>
+      <url>https://maven.pkg.github.com/CHOReVOLUTION/validations</url>
+	  <tag>HEAD</tag>
+   </scm>
+-->
+
    <licenses>
       <license>
          <name>The Apache Software License, Version 2.0</name>
@@ -54,6 +63,16 @@ limitations under the License.
          <url>http://nexus.disim.univaq.it/content/repositories/snapshots/</url>
       </snapshotRepository>
    </distributionManagement>
+
+<!--   
+   <distributionManagement>
+		<repository>
+		 <id>github</id>
+		 <name>GitHub CHOReVOLUTION Apache Maven Packages</name>
+		 <url>https://maven.pkg.github.com/CHOReVOLUTION/validations</url>
+		</repository>
+	</distributionManagement>
+-->
 
    <modules>
       <module>bpmn2choreography-validator</module>
