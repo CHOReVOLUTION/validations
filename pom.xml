@@ -34,23 +34,6 @@ limitations under the License.
    
    <url>http://www.chorevolution.eu</url>
    
-<!--
-   <scm>
-      <connection>scm:git:ssh://git@gitlab.ow2.org/chorevolution/validations.git</connection>
-      <developerConnection>scm:git:ssh://git@gitlab.ow2.org/chorevolution/validations.git</developerConnection>
-      <url>https://gitlab.ow2.org/chorevolution/validations</url>
-      <tag>HEAD</tag>
-   </scm>
-
--->
-   <scm>
-      <connection>scm:git:https://maven.pkg.github.com/CHOReVOLUTION/validations.git</connection>
-      <developerConnection>scm:git:https://maven.pkg.github.com/CHOReVOLUTION/validations.git</developerConnection>
-      <url>https://maven.pkg.github.com/CHOReVOLUTION/validations</url>
-	  <tag>validations-2.2.0</tag>
-   </scm>
-
-   
    <licenses>
       <license>
          <name>The Apache Software License, Version 2.0</name>
@@ -72,29 +55,6 @@ limitations under the License.
       </snapshotRepository>
    </distributionManagement>
 
-<!--   
-   <distributionManagement>
-		<repository>
-		 <id>github</id>
-		 <name>GitHub CHOReVOLUTION Apache Maven Packages</name>
-		 <url>https://maven.pkg.github.com/CHOReVOLUTION/validations</url>
-		</repository>
-	</distributionManagement>
--->
-   <!--
-   <distributionManagement>
-      <repository>
-         <id>ow2-nexus-releases</id>
-         <name>OW2 Release Repository</name>
-         <url>http://repository.ow2.org/nexus/service/local/staging/deploy/maven2/</url>
-      </repository>
-      <snapshotRepository>
-         <id>ow2-nexus-snapshots</id>
-         <name>OW2 Snapshots Repository</name>
-         <url>http://repository.ow2.org/nexus/content/repositories/snapshots/</url>
-      </snapshotRepository>
-   </distributionManagement>
-	-->
    <modules>
       <module>bpmn2choreography-validator</module>
    </modules>
