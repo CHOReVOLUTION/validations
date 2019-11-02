@@ -17,7 +17,7 @@ If everything checks out, the jar should be available in the `bpmn2choreography-
 
 ## Usage
 Inside the pom.xml file
-
+```
 <dependencies>
 	<dependency>
 		<groupId>eu.chorevolution.validations</groupId>
@@ -25,3 +25,4 @@ Inside the pom.xml file
 		<version>2.2.0</version>
 	</dependency>
 </dependencies>
+```
