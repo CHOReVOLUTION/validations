@@ -9,7 +9,7 @@ The bpmn2choreography-validator is a java library that validates a BPMN2 Choreog
 
 ### Building
 
-To build the project and generate the bundle use Maven
+To build the project and generate the bundle use the follwing Maven command
 
     mvn clean package
 
