@@ -16,7 +16,7 @@ To build the project and generate the bundle use the follwing Maven command
 If everything checks out, the jar should be available in the `bpmn2choreography-validator/target` folder
 
 ## Usage
-Inside the pom.xml file
+Inside the pom.xml file add the following dependency
 ```
 <dependencies>
 	<dependency>
