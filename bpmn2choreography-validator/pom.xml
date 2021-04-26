@@ -34,7 +34,7 @@ limitations under the License.
    <properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
       	<maven.compiler.target>1.8</maven.compiler.target>
-		<commons-io.version>2.5</commons-io.version>
+		<commons-io.version>2.7</commons-io.version>
       	<slf4j-api.version>1.7.12</slf4j-api.version>
 		<slf4j-log4j12.version>1.7.12</slf4j-log4j12.version>
       	<!--
